@@ -1,0 +1,37 @@
+.color {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: -5px;
+    float: left;
+  }
+  #break {
+    width: 0px;
+    height: 0px;
+    display: block;
+    clear: both;
+  }
+  button {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+  }
+  #root {
+    margin: auto;
+    height: 500px;
+    padding: 50px;
+    background-color: white;
+    width: 500px;
+  }
+  #info {
+    margin: auto;
+    box-sizing: content-box;
+    background-color: white;
+    width: 500px;
+    padding-bottom: 30px;
+    padding-top: 1px;
+  }
+  #info h3 {
+      text-align: center;
+  }

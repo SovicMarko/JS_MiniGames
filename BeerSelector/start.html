@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Selektor piva</title>
+  </head>
+  <body>
+    <header>
+        <a href="../index.html"><h1>JS mini games</h1></a>
+        <p>by Marko Šović</p>
+    </header>
+    <main>
+        <div>
+            <div id="ponudjeno">
+              <img src="assets/img/heineken.jpg" onclick="potez(0,'h')">
+              <img src="assets/img/amstel.jpg" onclick="potez(1,'a')">
+              <img src="assets/img/mb.jpg" onclick="potez(2,'m')">
+              <img src="assets/img/lasko.jpg" onclick="potez(3,'l')">
+              <img src="assets/img/zajecarsko.jpg" onclick="potez(4,'z')">
+              <img src="assets/img/pilsplus.jpg" onclick="potez(5,'p')">
+            </div>
+            <div id="krugovi"></div>
+            <div id="restart">
+                <button onclick="restart()">Restart</button>
+            </div>
+            
+        </div>
+    </main>
+    
+    
+    <script src="assets/main.js" charset="utf-8"></script>
+  </body>
+</html>

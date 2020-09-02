@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <header>
+        <a href="../index.html"><h1>JS mini games</h1></a>
+        <p>by Marko Šović</p>
+    </header>
+    <main>
+      <div>
+          <div id='menu'>
+              <button onclick="toggleOptions()">Opcije</button>
+              <button onclick='newGame()'>Nova Igra</button>
+          </div>
+          <div id="options"></div>
+          <div id="main">
+            <div id="table"></div>
+            <div id="game-stats"></div>
+          </div>
+      </div>
+    </main>
+    
+
+    <script src="cell.js" charset="utf-8"></script>
+    <script src="stats.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <script src="options.js" charset="utf-8"></script>
+
+
+
+  </body>
+</html>

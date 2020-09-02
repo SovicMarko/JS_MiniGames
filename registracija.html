@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>JS mini games</h1>
+        <p>by Marko Šović</p>
+        
+    </header>
+    <main>
+        <form name="reg">
+            <p>Unesite ime:</p>
+            <input type="text" name="ime">
+            <p>Unesite email:</p>
+            <input type="text" name="email">
+            <p>Unesite lozinku:</p>
+            <input type="password" name="loz1">
+            <p>Potvrdite lozinku:</p>
+            <input type="password" name="loz2">
+            <br><br>
+            <input type="button" onclick="registracija()" value="Potvrdi">
+            <p id="greska"></p>
+        </form>
+    </main>
+    <script src="registracija.js"></script>
+</body>
+</html>

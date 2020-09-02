@@ -1,0 +1,59 @@
+#menu {
+  margin-bottom: 20px;
+  width: 478px;
+  background-color: white;
+  margin: auto;
+}
+#options {
+  width: 478px;
+  background-color: white;
+  margin: auto;
+}
+#main {
+  height: 500px;
+  padding: 50px;
+  /* display: inline-block; */
+  margin: auto;
+}
+
+div > .cell {
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background: linear-gradient(#a9bcae, #8f9e93);
+  text-align: center;
+  line-height: 25px;
+  float: left;
+  cursor: pointer;
+}
+#options input {
+  width: 40px;
+}
+#options > * {
+  display: inline-block;
+  margin-left: 10px;
+}
+#main > div {
+  /* display: inline-block;
+  float: left;
+  margin-right: 10px; */
+}
+#game-stats {
+  text-align: center;
+  background-color: white;
+  width: 478px;
+  margin: auto;
+  margin-top: -50px;
+  padding-bottom: 5px;
+}
+#game-stats #left {
+  margin: 0px;
+}
+#table {
+  margin: auto;
+  padding: 50px;
+  box-sizing: content-box;
+  background-color: white;
+  margin-top: -50px;
+}
